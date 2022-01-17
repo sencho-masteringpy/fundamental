@@ -1,6 +1,6 @@
 # sintax pertama yaitu sequen yaitu eksekusi secara berurutan, berikut contohnya
 # print adalah sintaks untuk mencetak hasil, formatnya print()
-# jika ingin mencetak huruf atau sintaks yang diinginkan pakai ' ' atau " " dengan catatan harus konsisten
+# jika ingin mencetak text atau syntax yang diinginkan pakai ' ' atau " " dengan catatan harus konsisten
 print('hello world')
 print('my first code')
 # jika ingin mencetka perhitungan, tanpa menggunakan ''
