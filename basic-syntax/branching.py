@@ -1,9 +1,16 @@
 # percabangan
 # variabel adalah tempat untuk menyimpan data (bisa berupa text, angka, atau suatu kondisi benar atau salah)
 
-panjang_kemacetan = 10
+panjang_kemacetan = 50
+lama_kemacetan = 2
 
-if panjang_kemacetan > 8:
-    print('lewat samping')
+print(f"panjang kemacetan yaitu {panjang_kemacetan} M")
+print(f"lama kemacetan yaitu {lama_kemacetan} Menit")
+
+if lama_kemacetan < 5:
+    if panjang_kemacetan > 100:
+        print('lewat jalur alternatif')
+    else:
+        print('mohon tunggu')
 else:
-    print('lurus')
+    print('lewat jalur alternatif')
