@@ -1,14 +1,14 @@
-# percabangan
-# variabel adalah tempat untuk menyimpan data (bisa berupa text, angka, atau suatu kondisi benar atau salah)
+# branch
+# a variable is a place to store data (can be text, numbers, or a true or false condition)
 
-panjang_kemacetan = 50
-lama_kemacetan = 2
+jam_length = 50
+jam_time = 2
 
-print(f"panjang kemacetan yaitu {panjang_kemacetan} M")
-print(f"lama kemacetan yaitu {lama_kemacetan} Menit")
+print(f"panjang kemacetan yaitu {jam_length} Meter")
+print(f"lama kemacetan yaitu {jam_time} Minute")
 
-if lama_kemacetan < 5:
-    if panjang_kemacetan > 100:
+if jam_time < 5:
+    if jam_length > 100:
         print('lewat jalur alternatif')
     else:
         print('mohon tunggu')
