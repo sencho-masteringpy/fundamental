@@ -1,16 +1,24 @@
 # branch
 # a variable is a place to store data (can be text, numbers, or a true or false condition)
 
-jam_length = 50
-jam_time = 2
+print('ask people how long estimated time and how traffic crowded')
 
-print(f"panjang kemacetan yaitu {jam_length} Meter")
-print(f"lama kemacetan yaitu {jam_time} Minute")
+# this variable for the program
+estimated_time = 2
+is_traffic_crowded = True
 
-if jam_time < 5:
-    if jam_length > 100:
-        print('lewat jalur alternatif')
+print('get answers from a people')
+print(f"estimated time is  {estimated_time} Minute")
+print(f"is traffic {is_traffic_crowded} crowded")
+
+# make a program
+if estimated_time < 5:
+    print('go with car')
+    if is_traffic_crowded:
+        print('use your driver')
     else:
-        print('mohon tunggu')
+        print('driving without a driver')
 else:
-    print('lewat jalur alternatif')
+    print('go with motorcycle')
+
+print('arrive at the office')
