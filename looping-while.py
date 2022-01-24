@@ -7,26 +7,27 @@ leaking_tires = (15, 18)
 
 # empety variable
 number_of_leaking_tires = 0
-number_of_not_leaking_tires = 0
-number_of_rechecked = 0
+number_of_checked_tires = 0
 
-while number_of_not_leaking_tires < number_of_tires:
-    number_of_not_leaking_tires = number_of_not_leaking_tires + 1
-    if number_of_not_leaking_tires in leaking_tires:
-        jumlah_ban_bocor = number_of_leaking_tires + 1
-        print(f'ban ke {number_of_not_leaking_tires} bocor')
-        for jumlah_ban_bocor in range(3):
-            number_of_rechecked = number_of_rechecked + 1
-            print(f'melakukan cek ulang ban ke {number_of_not_leaking_tires} bocor')
+# make a program
+while number_of_checked_tires < number_of_tires:
+    number_of_checked_tires = number_of_checked_tires + 1
+    if number_of_checked_tires in leaking_tires:
+        number_of_leaking_tires = number_of_leaking_tires + 1
+        print(f'tires number {number_of_checked_tires} leaking')
+        for number_of_leaking_tires in range(3):
+            print('recheked tire number', number_of_checked_tires)
     else:
-        print(f'ban ke {number_of_not_leaking_tires} aman')
+        print(f'tires number {number_of_checked_tires} not leaking')
 
-if number_of_tires == number_of_not_leaking_tires:
-    print('semua ban aman')
-else:
-    print(f'terdapat ban yang bocor yaitu sebanya {number_of_leaking_tires} ban')
+
+# code for counting how much tire not leaking & summary
+number_of_not_leaking_tire = number_of_tires - number_of_leaking_tires
 
 print('berikut adalah ringkasan pemeriksaan ban:')
-print(f'jumlah ban tidak bocor sebanyak {number_of_not_leaking_tires} ban')
-print(f'jumlah ban bocor sebanyak {number_of_leaking_tires} ban yatu di ban ke {leaking_tires}')
-print(f'total pengecekan ulang sebanyak {number_of_rechecked} kali')
+print(f'jumlah ban tidak bocor sebanyak {number_of_checked_tires} ban')
+
+if number_of_tires == number_of_not_leaking_tire:
+    print('all tires is safe')
+else:
+    print(f'there is a leaking vehicle tire as much as {number_of_leaking_tires} tires in {leaking_tires}')
