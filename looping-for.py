@@ -1,7 +1,8 @@
-jumlah_buku = 10
-print('ibu menyuruh membaca semua bukumu')
+number_of_book = 10
+print('mom told you to read all your books')
 
-jumlah_buku_dibaca = 0
+read_books = 0
 
-for jumlah_buku_dibaca in range(jumlah_buku + 1):
-    print(f'membaca buku ke {jumlah_buku_dibaca}')
+for i in range(number_of_book):
+    read_books = read_books + 1
+    print(f'read book {read_books}')
