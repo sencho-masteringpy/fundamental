@@ -25,7 +25,7 @@ while number_of_checked_tires < number_of_tires:
 number_of_not_leaking_tire = number_of_tires - number_of_leaking_tires
 
 print('this is a summary of tire inspection:')
-print(f'number of tires that dont leak {number_of_checked_tires} tyre')
+print(f'number of tires that dont leak {number_of_not_leaking_tire} tyre')
 
 if number_of_tires == number_of_not_leaking_tire:
     print('all tires is safe')
