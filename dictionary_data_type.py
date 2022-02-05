@@ -1,3 +1,6 @@
+# key dict must string
+# dictionary == json == restAPI
+
 user = {
     "id": 1,
     "premium": True,

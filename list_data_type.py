@@ -1,3 +1,5 @@
+# list == array
+
 car = ['ferrari', 'lamborghini', 'porsche', 'bmw', 'mercedes']
 
 # show all list
