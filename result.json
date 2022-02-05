@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "premium": true,
+  "name": "Agus",
+  "username": "AgusTjakep",
+  "email": "agusgantenx@gmail.com",
+  "adrees": {
+    "kota": "diatas langit",
+    "desa": "konoha",
+    "rt": 4,
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  }
+}

@@ -1,12 +1,12 @@
 car = ['ferrari', 'lamborghini', 'porsche', 'bmw', 'mercedes']
 
-# tampilkan semua list
+# show all list
 print(car)
 
-# tampilkan per elemen nilai didalam list
+# show per element value in list
 print(car[1])
 
-# tampilkan semua list menggunakan looping
+# show all list using loop
 for i in car:
     print(i)
 
@@ -14,35 +14,35 @@ for i in car:
 car = [320, 'civic', 'corrola', 86, 'gtr']
 print(car)
 
-# menambahkan variabel kedalam list
+# add variable to list
 phone = ['samsung', 'iphone', 'asus', 'xiaomi']
 phone.append('nokia')
 print(phone)
 
-# menghapus list yang ada didalam variabel
+# delete the list in the variable
 phone = ['samsung', 'iphone', 'asus', 'xiaomi']
 phone.clear()
 print(phone)
 
-# ganti elemen pada list
+# replace element on list
 phone = ['samsung', 'iphone', 'asus', 'xiaomi']
 phone[0] = 'vivo'
 print(phone)
 
-# mengambil salah satu elemen pada list dan menampilkan
-# jika pop tidak diberikan nilai / index maka akan menghilangkan nilai paling terakhir
-# jika pop diberikan nilai negatif maka akan melakuan perhitungan dari belakang (berguna untuk tipe data stack)
+# takes one of the elements in the list and show
+# if pop is not given a value / index it will remove the last value
+# if pop is given a negative value it will do the calculation backwards (useful for stack data types)
 phone = ['samsung', 'iphone', 'asus', 'xiaomi']
 non_android = phone.pop(1)
 print(phone)
 print(non_android)
 
-# menghapus list dengan del (menggunakan cara list comperhension) rumus = [start(index):end(jumlah):step(lewat)]
+# delete list with cells (using list comprehension method) formula = [start(index):end(total):step(skip)]
 phone = ['samsung', 'iphone', 'asus', 'xiaomi', 'vivo', 'nokia']
 del phone[::2]
 print(phone)
 
-# membuat list baru dari list lama
+# create a new list from the old list
 phone = ['samsung', 'iphone', 'asus', 'xiaomi']
 new_phone = phone[:]
 
