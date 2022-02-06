@@ -1,1 +1,1 @@
-# sequen
+# this fundamental things
