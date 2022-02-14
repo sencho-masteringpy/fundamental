@@ -16,9 +16,12 @@ for i in car:
 car = [320, 'civic', 'corrola', 86, 'gtr']
 print(car)
 
-# add variable to list
+
 phone = ['samsung', 'iphone', 'asus', 'xiaomi']
+# add variable to list from behind
 phone.append('nokia')
+# add variable to list from front
+phone.prepend('HTC')
 print(phone)
 
 # delete the list in the variable
@@ -50,4 +53,10 @@ new_phone = phone[:]
 
 del phone[:]
 print(new_phone)
+
+# combine 2 list
+car = ['porsche', 'bmw', 'mercedes']
+motorcycle = ['kawasaki', 'honda', 'yamaha']
+
+vehicle = car + motorcycle
 

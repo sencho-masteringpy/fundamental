@@ -1,4 +1,3 @@
-# key dict must string
 # dictionary == json == restAPI
 
 user = {
